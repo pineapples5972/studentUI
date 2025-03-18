@@ -1,0 +1,99 @@
+body { 
+    background: #302433; 
+    font-family: Arial, sans-serif; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+a {
+    color: #ffe19b;
+}
+
+a:visited {
+    color: #f36c1d;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffe19b;
+}
+
+.welcome {
+    color: #ffe19b;
+    font-family: cursive;
+    font-style: bold;
+    font-size: large;
+}
+.profile-section { 
+    background: #765dae; 
+    color: #ffe19b; 
+    padding: 20px; 
+    border-radius: 25px; 
+}
+
+.heading {
+    font-weight: 400;
+    text-align: center;
+}
+.container {
+    background: #f5e337;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 1px solid #d25cd6;
+}
+
+input {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    background-color: #e32e6e;
+    border: 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.signup_button {
+    background-color: #28a745;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
