@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #ffe19b;
+    color: #f36c1d;
 }
 
 a:visited {
@@ -16,7 +16,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    color: #ffe19b;
+    color: #8e42b3;
 }
 
 .welcome {
